@@ -10,7 +10,7 @@
 ## Single view HCA 
 1. Scaling the descriptors between 0 and 1
 2. Calculation of euclidean distance matrix for descriptors matrix
-3. Performing agnes with ward method on descriptors space
+3. Performing agglomerative nested HCA using ward method on physico-chemical descriptors (chemical) space
 4. Calculation of euclidean distance for the pathway score in each data layer
 5. Performing agnes with ward method on transcriptome space for each data layer
 ## Multi view clustering on toxicogenomics space
