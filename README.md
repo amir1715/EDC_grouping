@@ -1,5 +1,5 @@
 # EDC_grouping
-## Preprocessing
+## Preprocessing of data
 1. Retrieving compounds with EDC average score > 0.9
 2. Using RDkit to calculate physico chemical descriptors
 3. Removing compounds with constant descriptors
