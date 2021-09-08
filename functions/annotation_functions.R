@@ -95,4 +95,12 @@ pathway_annotate<-function(inp,patway_dic=readRDS('inputData/annotation/pathway_
   return(nn)
 } #end function
 
-
+patway_anot_chordiag<-function(inp){
+  require(qdapRegex)
+  res<-inp
+  if(any(grep(x=res,pattern = 'Wiki')) %in% TRUE){
+    wp_id<-qdapRegex::ex_between(as.character(inp),'%WP','%')
+    res<-paste('Wiki_wp',wp_id,sep = '')
+  } #end if
+  return(res)
+}# end function

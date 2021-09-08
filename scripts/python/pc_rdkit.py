@@ -18,7 +18,7 @@ ligands = []
 
 for i in list_of_smiles:
   mol = Chem.MolFromSmiles(i)
-ligands.append(mol)
+  ligands.append(mol)
 
 rdkit_df = pd.DataFrame(index=np.arange(len(ligands))) #empty dataframe to add the 200 rdkit features
 
@@ -31,9 +31,9 @@ calc = MoleculeDescriptors.MolecularDescriptorCalculator([x[0] for x in Descript
 k = 0
 for lig in ligands:
   desc = list(calc.CalcDescriptors(lig))
-print(k)
-rdkit_df.iloc[k, :] = desc #append the rdkit descriptors for each molecule in ligands
-k += 1
+  print(k)
+  rdkit_df.iloc[k, :] = desc #append the rdkit descriptors for each molecule in ligands
+  k += 1
 
 
 rdkit_df['cas']=list_of_cas

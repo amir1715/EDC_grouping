@@ -11,4 +11,5 @@ fi
 fi
 unset __conda_setup
 conda activate my-rdkit-env
+python names2smiles.py cas.txt smiles.txt
 python pc_rdkit.py
