@@ -1,4 +1,4 @@
-# EDC_grouping
+# EDC_grouping (1_Physicopathway_grouping.R)
 ## Preprocessing of data
 1. Retrieving compounds with EDC average score > 0.9
 2. Using RDkit to calculate physico chemical descriptors
