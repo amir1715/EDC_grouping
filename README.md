@@ -15,4 +15,5 @@
 5. Performing agnes with ward method on transcriptome space for each data layer
 ## Multi view clustering on toxicogenomics space
 1. Performing multi view clustering using ward method and euclidean distance on toxicogenomics  data space
+# Regularized canonical correlation analysis (3_rCCA_independent.R)
 
