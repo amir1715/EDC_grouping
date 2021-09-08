@@ -1,4 +1,4 @@
-# A. EDC_grouping (1_Physicopathway_grouping.R)
+# A. EDC_grouping (scripts/1_Physicopathway_grouping.R)
 ## Preprocessing of data
 1. Retrieving compounds with EDC average score > 0.9
 2. Using RDkit to calculate physico chemical descriptors
@@ -15,7 +15,7 @@
 5. Performing agnes with ward method on transcriptome space for each data layer
 ## Multi view clustering on toxicogenomics space
 1. Performing multi view clustering using ward method and euclidean distance on toxicogenomics  data space
-# B. Regularized canonical correlation analysis (3_rCCA_independent.R)
+# B. Regularized canonical correlation analysis (scripts/3_rCCA_independent.R)
 1. Preprocessing of Rdkit descriptors and removing pathways with constant values
 2. For each toxicogenomics data layer-physico chemical properties pair tuning of lambda was done using grid  M-FOLD CV (folds=5) before regularized canonical correlation analysis (r-CCA)  
 3. Making final r-CCA using optimized paramters for each pair from step 2
