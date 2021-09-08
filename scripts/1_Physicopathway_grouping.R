@@ -144,7 +144,7 @@ library(ggpubr)
 pdf('outputData/plots/fviz_single_view_clust_pathways.pdf',width = 30,height = 30)
 plot(ggarrange(plotlist = plt_list,nrow = 5,ncol = 3,common.legend = T))
 dev.off()
-
+# frequency analysis to understand which descriptors are associated with each group
 
 # 5. Multi  view Clusteing based on the pathway scores of all 15 toxicogenomics data layers ---------------------------
 load('outputData/patway_based_grouping.RData')
