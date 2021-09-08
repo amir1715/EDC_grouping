@@ -17,7 +17,7 @@
 1. Performing multi view clustering using ward method and euclidean distance on toxicogenomics  data space
 # B. Regularized canonical correlation analysis (r-CCA) (scripts/3_rCCA_independent.R)
 1. Preprocessing of Rdkit descriptors and removing pathways with constant values
-2. For each toxicogenomics data layer-physico chemical properties pair tuning of lambda was done using grid  M-FOLD CV (folds=5)   
+2. Tuning of lambda for each toxicogenomics data layer-physico chemical properties pair by means of grid  M-FOLD CV (folds=5)   
 3. Making final r-CCA using optimized paramters for each pair from step 2
 4. Heatmap visualization of r-CCA results with descriptors in terms of Correlation distance matrix for each data layer
 5. Chor diagram of top 5% most correlated descriptors with pathways scores for each data layer
