@@ -162,6 +162,7 @@ MVC<-WonM(List = dx_sclaed_pat_scores,
  pdf('outputData/plots/multi_view_clust_pathways.pdf',width = 30,height = 30)
  plot(dend,main = 'Multi view Clustering by Correlation distance')
  dev.off()
+  # elbow method for optimization of K
  grp_mvc <- cutree(MVC$Clust, k = 5) # we select 5 groups based on the plot
 source('functions/annotation_functions.R')
 
