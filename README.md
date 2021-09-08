@@ -20,5 +20,5 @@
 2. For each toxicogenomics data layer-physico chemical properties pair tuning of lambda was done using grid  M-FOLD CV (folds=5) before regularized canonical correlation analysis (r-CCA)  
 3. Making final r-CCA using optimized paramters for each pair
 4. Visualization of r-CCA based on Correlation distance matrix for each pair as heatmap plots
-5. 
+5. Chor diagram of top 5% most correlated descriptors with pathways scores for each data layer was provided
 
